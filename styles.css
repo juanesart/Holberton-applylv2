@@ -1,0 +1,53 @@
+header{
+    color: white;
+    background-color: #8d78c549;
+}
+header a{
+    color: white;
+}
+a:hover{
+    color: #000000;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://cutewallpaper.org/21/wallpaper-hd-1920x1080/Download-wallpaper-1920x1080-bird,-silhouette,-vector-.jpg);
+    
+    
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+h2{
+    color: #242424;
+}
+p{
+    text-align: justify;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+article{
+    flex: 2;
+    background-color: #ebf5fc88;
+}
+aside{
+    margin-left: 0.5rem;
+    background-color: #9bc0d6a6;
+    border-radius: 2rem;
+    flex: 1;
+}
+img{    
+    border-radius: 2rem;    
+    border: solid;
+    border-color:transparent;
+}
+footer{
+    color: white;
+    background-color: #8d78c560;
+}
+footer a{
+    color: white;
+}
