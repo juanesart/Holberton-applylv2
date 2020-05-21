@@ -10,4 +10,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         ;
       });
+      var thumbnailElement2 = document.getElementById("smart_thumbnail2");
+      thumbnailElement2.addEventListener("click", function() {
+          if(thumbnailElement2.className==""){
+              thumbnailElement2.className="small";
+          }
+              else{
+                  thumbnailElement2.className="";
+              }
+  
+          ;
+        });  
 });
